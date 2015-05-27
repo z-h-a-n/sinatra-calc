@@ -1,0 +1,86 @@
+li a {
+	text-decoration: none;
+	color: rgb(230, 0, 0);
+	font-weight: bold;
+}
+
+body {
+	margin-top: 30px;
+	font-family: helvetica;
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(193,193,193,1) 100%)  fixed;
+}
+
+li {
+	display: inline-block;
+	padding: 1%;
+	border-radius: 2px;
+	background-color: black;
+}
+
+li a{
+	color: white;
+}
+
+nav {
+	text-align: center;
+	font-size: 10px;
+}
+
+li a:hover {
+	color: rgb(230, 0, 0);
+}
+
+div :hover {
+	color: black;
+}
+
+form {
+	margin-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 20px;
+	color: rgb(230, 0, 0);
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+label {
+	color: rgb(230, 0, 0);
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+span {
+	margin-top: -30px;
+	display: block;
+	font-size: 400px;
+	color: rgb(230, 0, 0);
+	
+}
+
+input {
+	background-color: rgb(230, 0, 0);
+	border-width: 0px;
+	color: white;
+
+
+}
+
+div {
+	margin-top: 20px;
+}
+
+
+::-webkit-input-placeholder {
+   color: white;
+}

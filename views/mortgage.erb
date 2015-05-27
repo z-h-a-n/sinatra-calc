@@ -1,0 +1,18 @@
+
+<form action="/mortgage" method="get">
+	<label for="principal">PRINCIPAL</label>
+	<input type="text" name="principal" placeholder="Enter the principal">
+
+	<label for="int_rate">INTEREST RATE</label>
+	<input type="text" name="int_rate" placeholder="Enter the interest rate">
+
+	<label for="num_payments">NUMBER OF PAYMENTS</label>
+	<input type="text" name="num_payments" placeholder="Enter the number of payments">
+
+	<div><input type="submit"></div>
+</form>
+
+
+<% if @result_mort_calc %>
+<p>Based on a principal of <%= @principal %>, an interest rate of <%= @int_rate %>, and <%= @num_payments %> payments, your mortgage is <span>$<%= @result_mort_calc %></span> / month </p>
+<% end %>

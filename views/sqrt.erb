@@ -1,0 +1,12 @@
+<form action="/sqrt" method="get">
+	<label for="num">NUMBER</label>
+	<input type="text" name="num" placeholder="Enter a number">
+	
+	<div><input type="submit"></div>
+</form>
+
+
+
+<% if @result %>
+<p>The result of <%= @num %> sqaure root is <span><%= @result %></span></p>
+<% end %>

@@ -1,0 +1,17 @@
+<!-- when you submit this form it will fire a http get request to '/' with the relevant data in the params hash -->
+
+<form action="/basic_calc" method="get">
+	<label for="first">FIRST NUMBER</label>
+	<input type="text" name="first" placeholder="Enter the first number">
+	<label for="operator">OPERATOR</label>
+	<input type="text" name="operator" placeholder="Enter the operator">
+	<label for="second">SECOND NUMBER</label>
+	<input type="text" name="second" placeholder="Enter the second number">
+	<div><input type="submit"></div>
+</form>
+
+
+<!-- if does not need %= as we do not what it to be displayed on the page -->
+<% if @result %>
+<p>The result of <%= @first %> <%= @operator %> <%= @second %> is <span><%= @result %></span></p>
+<% end %>
